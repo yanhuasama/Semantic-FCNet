@@ -85,3 +85,4 @@ For a dataset, if `root_path` is not specified, it is `materials/{DATASET_NAME}`
 
 For a model, to load it from a specific saving file, change `load_encoder` or `load` to the corresponding path.
 `load_encoder` refers to only loading its `.encoder` part.
+The acquisition of rich text features requires the acquisition of text through llama.py and the extraction of features through clip.
